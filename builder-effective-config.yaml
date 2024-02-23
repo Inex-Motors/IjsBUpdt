@@ -1,0 +1,12 @@
+directories:
+  output: builderOut
+  buildResources: dist/assets
+appId: inerciajsb
+productName: InerciaJS-b
+win:
+  target: nsis
+files:
+  - filter:
+      - dist
+icon: icon.ico
+electronVersion: 27.0.2
